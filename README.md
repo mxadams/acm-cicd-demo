@@ -68,9 +68,8 @@ You'll then need to go into the dashboard and connect your GitHub fork to Fly.io
 
 Try deploying stuff manually and making sure it works.
 
-Next, generate an API key.  
-(TODO: figure out if this can be done without
-installing their CLI tool)
+Next, generate an API key. You can do this in the web dashboard under the
+"Tokens" option in the sidebar.
 
 Add the API key to your secrets in GitHub by going to repo settings -> Actions
 -> secrets and pasting the key into a secret named `FLY_API_TOKEN`.
